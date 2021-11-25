@@ -1,0 +1,10 @@
+
+<body>
+    <h1> Parent</h1>
+    Message: {{message}}
+    <br>
+    <br>
+    <!-- <button (click)="toggle()">Submit</button> -->
+    
+    <app-child (messageEvent)="receiveMessage($event)" >  </app-child>
+    </body>
